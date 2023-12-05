@@ -1,0 +1,20 @@
+Đề:
+https://www.figma.com/file/dpyHJIJI8KRcLngmLDDibm/Capstone-express-ORM-(pinterest
+)?node-id=3%3A38
+
+- B1: yarn init
+- B2: yarn add express nodemon
+- B3: thêm vào package.json:
+	 "type": "module",
+  	"scripts": {
+    	"start": "nodemon index.js"
+  	},
+- B4: yarn add cors
+- B5: tạo index.js
+- B6: yarn add mysql2
+- B7: tạo 3 thư mục MVC
+- B8: yarn add sequelize
+- B9: yarn add sequelize-auto
+- B10: npx sequelize-auto -h localhost -d pinterest- u root -x 1234 -p 3307 --dialect mysql -o models -l esm
+- B11: mã hóa password: yarn add bcrypt
+- B12: jwt: yarn add jsonwebtoken
